@@ -16,36 +16,72 @@
 
 <body>
     <!-- Header -->
+
     <nav class="navbar navbar-light bg-dark">
+        
         <div class="brandd">
             <a >
                 <h1><span>M</span>ar <span>A</span>H</h1>
             </a>
         </div>
         
-        <form class="form-inline taille">
-            
-          <button class="btn btn-outline-success tll" type="button">sign up</button>
+        <form class="form-inline taille ">
+          
+          <button id="buttonn" class="btn btn-outline-success tll" type="button" >sign up</button>
+</div>
 
-          <button class="btn  btn-outline-secondary tll" type="button">sign in</button>
+          <button class="btn  btn-outline-secondary tll" type="button"> sign in</button>
         </form>
       </nav>
-    
+     
     <!-- End Header -->
 
 
     <!-- Hero Section  -->
     <section id="hero">
         <div class="hero contaiiner">
+           
             <div>
+
                 <h1 >ART<span></span></h1>
                 <h1 >IS CONNECTING<span></span></h1>
                 <h1 >THE DOTS <span></span></h1>
                 <a href="#projects" type="button" class="cta">Portfolio</a>
             </div>
-        </div>
+            <div class="popup" id="popup">
+                <div class="popup-content"> 
+                    <img src="cancel.png" alt="close" class="close">
+                    <div class="button-box">
+                        <button type="button" class="toggle-btn"> Connect</button>
+                    </div>
+                    
+                    <form class="input-group popup" id="np">
+                        <input type="text" class="input-field" placeholder="User Id" required>
+                        <input type="text" class="input-field" placeholder="Enter Password" required>
+                        <input type="checkbox" class="check_box" ><span>remember password</span>
+                        <button type="submit" class="submit-btn">Log in </button>
+                        
+                    </form>
+                    
+
+                    <div class="social-icons">
+                        <img src="fb.png">
+                        <img src="tw.png">
+                        <img src="gp.png">
+                    </div>
+
+              </div>
+
+
+
+                </div>
+               </div>
+        
+
+
     </section>
     <!-- End Hero Section  -->
+    
 
 <!-- Contact Section -->
 <section id="contact">
@@ -159,38 +195,36 @@
     <!-- End Projects Section -->
 
     <!-- Service Section -->
-      <section id="services">
-        <div class="services container">
-            <div class="service-top">
-                <h1 class="section-title">Serv<span>i</span>ces</h1>
-                <p>I am a Front-end Developer with 12 years commercial experience, author of CSS3 Foundations, and graduate of Internet Technology. I create successful websites that are fast, easy to use, and built with best practices.</p>
+
+     <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <p>I am a Front-end Developer with 12 years commercial experience, author of CSS3 Foundations, and graduate of Internet Technology. I create successful websites that are fast, easy to use, and built with best practices.</p>
+     </div>
+     
+        <div class="containner" >
+          
+          <div class="box">
+            <div class="icons"><img src="6.svg" /></div>
+            <h3>designer</h3>
+            <p class="txt">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+          </div>
+          <div class="box">
+            <div class="icons"><img src="frontend.svg" /></div>
+               <h3>web Developement</h3>
+              <p class="txt">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
             </div>
-            <div class="service-bottom">
-                <div class="service-item">
-                    <div class="icon"><img src="6.svg" /></div>
-                    <h2>designer</h2>
-                    <p class="txt">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon"><img src="frontend.svg" /></div>
-                    <h2>Web Developement</h2>
-                    <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon"><img src="mentor.svg" /></div>
-                    <h2>mentor</h2>
-                    <p>I genuinely care about people, and love helping fellow designers work on their craft.</p>
-                </div>
-               
-            </div>
+
+           <div class="box">
+            <div class="icons"><img src="mentor.svg" /></div>
+            <h3>mentor</h3>
+            <p class="txt">I genuinely care about people, and love helping fellow designers work on their craft.</p>
         </div>
-      </section>
-
-
-
+       </div>
+      
+     
       <!-- End Service Section -->
    
-    <section>
+     <section>
     
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -220,11 +254,12 @@
           <span class="sr-only clr">></span>
         </a>
       </div>
-    </section>
+     </section>
       <!-- contact-->
       
       <div class="container contact-form  hi">
-        
+        <h1>Subscribe </h1>
+        <input type="text" class="form-control" placeholder="Enter your email" > 
         <hr >
     
         <div class="row ">
