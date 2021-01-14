@@ -10,59 +10,67 @@
 
 
     <title>My Website</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Header -->
-
-    <nav class="navbar navbar-light bg-dark">
-        
-        <div class="brandd">
-            <a >
-                <h1><span>M</span>ar <span>A</span>H</h1>
-            </a>
+    <section id="header">
+        <div class="header contaainer">
+            <div class="nav-barr">
+                <div class="brandd">
+                    <a href="#hero">
+                        <h1><span>M</span>ar <span>A</span>h</h1>
+                    </a>
+                </div>
+                <div class="nav-listt">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li id="buttonn"><a href="#">sign in</a></li>
+                        <li><a href="#services">services</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        
-        <form class="form-inline taille ">
-          
-          <button id="buttonn" class="btn btn-outline-success tll" type="button" >sign up</button>
-</div>
-
-          <button class="btn  btn-outline-secondary tll" type="button"> sign in</button>
-        </form>
-      </nav>
-     
+    </section>
     <!-- End Header -->
 
 
     <!-- Hero Section  -->
     <section id="hero">
         <div class="hero contaiiner">
-           
+
             <div>
 
-                <h1 >ART<span></span></h1>
-                <h1 >IS CONNECTING<span></span></h1>
-                <h1 >THE DOTS <span></span></h1>
+                <h1>ART<span></span></h1>
+                <h1>IS CONNECTING<span></span></h1>
+                <h1>THE DOTS <span></span></h1>
                 <a href="#projects" type="button" class="cta">Portfolio</a>
             </div>
+
+
             <div class="popup" id="popup">
-                <div class="popup-content"> 
-                    <img src="cancel.png" alt="close" class="close">
+                <div class="popup-content">
+                    <img src="cancel.png" alt="close" id="close" class="close">
                     <div class="button-box">
                         <button type="button" class="toggle-btn"> Connect</button>
                     </div>
-                    
+
                     <form class="input-group popup" id="np">
                         <input type="text" class="input-field" placeholder="User Id" required>
                         <input type="text" class="input-field" placeholder="Enter Password" required>
-                        <input type="checkbox" class="check_box" ><span>remember password</span>
+                        <input type="checkbox" class="check_box"><span>remember password</span>
                         <button type="submit" class="submit-btn">Log in </button>
-                        
+
                     </form>
-                    
+
 
                     <div class="social-icons">
                         <img src="fb.png">
@@ -70,59 +78,50 @@
                         <img src="gp.png">
                     </div>
 
-              </div>
-
-
-
                 </div>
-               </div>
-        
+
+
+
+            </div>
+        </div>
+
 
 
     </section>
     <!-- End Hero Section  -->
-    
 
-<!-- Contact Section -->
-<section id="contact">
-    <div class="contact contaiiner">
-        
-        <div class="contact-items">
-            <div class="contact-item">
-                <div class="icon"><img src="12.png" /></div>
-                <div class="contact-info">
-                    <h1>Phone</h1>
-                    <h2>+216 92999582</h2>
-                    <h2>+216 58231069</h2>
-                </div>
-            </div>
-            <div class="contact-item">
-                <div class="icon"><img src="git.png" /></div>
-                <div class="contact-info">
-                    <h1>Github</h1>
-                    <h2>https://github.com/maryem-nahdi</h2>
-                </div>
-            </div>
-            <div class="contact-item">
-                <div class="icon"><img src="10.png" /></div>
-                <div class="contact-info">
-                    <h1>Address</h1>
-                    <h2>fushanah, Ben Arous</h2>
-                </div>
-            </div>
-            <div class="contact-item">
-                <div class="icon"><img src="9.png" /></div>
-                <div class="contact-info">
-                    <h1>Email</h1>
-                    <h2>maryem.nahdi40@gmail.com</h2>
-                    <h2>maryem.nahdii@gmail.com</h2>
-                </div>
-            </div>
-          
+
+    <!-- Contact Section -->
+    <section class="section-2 container-fluid p-0">
+        <div class="cover">
+          <div class="overlay"></div>
+          <div class="content text-center">
+            <h1>Some Features That Made Us Unique</h1>
+           
+          </div>
         </div>
-    </div>
-</section>
-<!-- End Contact Section -->
+        <div class="container-fluid text-center">
+          <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+            <div class="rect">
+              <h1>2345</h1>
+              <p>Happy Client</p>
+            </div>
+            <div class="rect">
+              <h1>384</h1>
+              <p>Web  site</p>
+            </div>
+            <div class="rect">
+              <h1>2056</h1>
+              <p>good design</p>
+            </div>
+            <div class="rect">
+              <h1>9152</h1>
+              <p>Total Projects</p>
+            </div>
+          </div>
+        </div>
+</section>  
+    <!-- End Contact Section -->
 
     <!-- Projects Section -->
     <section id="projects">
@@ -135,20 +134,21 @@
 
                 <div class="container">
                     <div class="row ">
-                        
+
                         <div class="col-6"><img src="final-formation.png"></div>
 
                         <div class="col-6 ">
-                                    
-                                <div class="row">
-                                    
-                                    <div class="col-6 bg ">
-                                       
-                                        <h1>Project 1</h1>
-                                        <h2>Coding is Love</h2>
-                                        <p class="bg ">Red Six Media approached me to develop an interactive and smooth front-end experience for the LSU - Football Operations Facility Expansion. The project required solutions to produce a website that matched the detailed designs and interactivity concepts provided by Red Six Media whilst remaining fast to use across a wide range of devices. </p>
-                                    
-                                    </div>
+
+                            <div class="row">
+
+                                <div class="col-6 bg ">
+
+                                    <h1>Project 1</h1>
+                                    <h2>Coding is Love</h2>
+                                    <p class="bg ">Red Six Media approached me to develop an interactive and smooth
+                                        front-end experience for the LSU - Football Operations Facility Expansion.</p>
+
+                                </div>
                                 <div class="col-6">
                                     <div class="project-img">
                                         <img src="4.webp" alt="img">
@@ -159,27 +159,30 @@
 
                                 <div class="col-14  ">
                                     <div class="row">
-                                    
+
                                         <div class="col-6 bg">
-                                           
+
                                             <h1>Project 2</h1>
                                             <h2>Coding is Love</h2>
-                                            <p class="bg">I was the designer and front-end developer for the initial Pet Plate website in 2015 and worked closely with the company as it grew over a period of 5 years, eventually becoming Lead Front-end Developer. By early 2020, Pet Plate had successfully raised a total investment fund of $13 million dollars.</p>
-                                        
-                                        </div>
-                                    <div class="col-6">
-                                        <div class="project-img">
-                                            <img src="pet.webp" alt="img">
-                                        </div>
-                                    </div>
+                                            <p class="bg">I was the designer and front-end developer for the initial Pet
+                                                Plate website in 2015 and worked closely with the company as it grew
+                                                over a period of 5 years.
+                                               </p>
 
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="project-img">
+                                                <img src="pet.webp" alt="img">
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
 
@@ -196,107 +199,109 @@
 
     <!-- Service Section -->
 
-     <div class="service-top">
+    <div class="service-top" id="services">
         <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <p>I am a Front-end Developer with 12 years commercial experience, author of CSS3 Foundations, and graduate of Internet Technology. I create successful websites that are fast, easy to use, and built with best practices.</p>
-     </div>
-     
-        <div class="containner" >
-          
-          <div class="box">
+        <p>I am a Front-end Developer with 12 years commercial experience, author of CSS3 Foundations, and graduate of
+            Internet Technology. I create successful websites that are fast, easy to use, and built with best practices.
+        </p>
+    </div>
+
+    <div class=" containner ">
+
+        <div class="box ">
             <div class="icons"><img src="6.svg" /></div>
             <h3>designer</h3>
             <p class="txt">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
-          </div>
-          <div class="box">
+        </div>
+        <div class="box">
             <div class="icons"><img src="frontend.svg" /></div>
-               <h3>web Developement</h3>
-              <p class="txt">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-            </div>
+            <h3>web Developement</h3>
+            <p class="txt">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+        </div>
 
-           <div class="box">
+        <div class="box ">
             <div class="icons"><img src="mentor.svg" /></div>
             <h3>mentor</h3>
             <p class="txt">I genuinely care about people, and love helping fellow designers work on their craft.</p>
         </div>
-       </div>
-      
-     
-      <!-- End Service Section -->
-   
-     <section>
-    
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active ">
-            
-            <img src="8.jpg" class="d-block img-fluid immg" 
-            >
-          </div>
-          <div class="carousel-item">
-            <img src="8294.jpg" class="d-block img-fluid immg" >
-          </div>
-          <div class="carousel-item">
-            <img src="webd.jpg" class="d-block img-fluid immg" >
-          </div>
+    </div>
+
+
+    <!-- End Service Section -->
+
+    <section >
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+
+                    <img src="8.jpg" class="d-block img-fluid immg">
+                </div>
+                <div class="carousel-item">
+                    <img src="8294.jpg" class="d-block img-fluid immg">
+                </div>
+                <div class="carousel-item">
+                    <img src="webd.jpg" class="d-block img-fluid immg">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon clr" aria-hidden="true"></span>
+                <span class="sr-only clr">
+                    < </span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only clr">></span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon clr" aria-hidden="true"></span>
-          <span class="sr-only clr" >< </span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only clr">></span>
-        </a>
-      </div>
-     </section>
-      <!-- contact-->
-      
-      <div class="container contact-form  hi">
+    </section>
+    <!-- contact-->
+
+    <div class="container contact-form  hi">
         <h1>Subscribe </h1>
-        <input type="text" class="form-control" placeholder="Enter your email" > 
-        <hr >
-    
+        <input type="text" class="form-control" placeholder="Enter your email">
+        <hr>
+
         <div class="row ">
-       
-           <div class="col-md-6 ">
-               <img  class="iimg"src ="alvin.png">
-           </div>
-    
-           <div class="col-md-6">
-               
-             <div class="form-group tiill">
-                 <label> Full Name</label>
-                 <input type="text" class="form-control">
-             </div>
-    
-             <div class="form-group tiill">
-                 <label>Email</label>
-                 <input type="text" class="form-control">
-             </div>
-    
-             <div class="form-group tiill">
-                 <label>Massage</label>
-                 <textarea  class="form-control" rows="7"></textarea>
-             </div>
-    
-             <div class="form-group ">
-                 <button class="btn btn-primary btn-block send">Send</button>
-             </div>
-    
-           </div>
-    
+
+            <div class="col-md-6 ">
+                <img class="iimg" src="alvin.png">
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="form-group tiill">
+                    <label> Full Name</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group tiill">
+                    <label>Email</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group tiill">
+                    <label>Massage</label>
+                    <textarea class="form-control" rows="7"></textarea>
+                </div>
+
+                <div class="form-group ">
+                    <button class="btn btn-primary btn-block send">Send</button>
+                </div>
+
+            </div>
+
         </div>
-    
-        
+
+
         <section id="footer">
             <div class="footer contaiiner">
-                
+
                 <div class="social-icon">
                     <div class="social-item">
                         <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
@@ -314,20 +319,25 @@
                 <p>Copyright © 2020 MarAh. All rights reserved</p>
             </div>
         </section>
-    
 
 
-     </div>
 
-    
-     
-    
-       <!--end contact-->
-     <!-- Footer -->
-    
-    
+    </div>
+
+
+
+
+    <!--end contact-->
+    <!-- Footer -->
+
+
     <!-- End Footer -->
     <script src="./app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
